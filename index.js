@@ -10,4 +10,8 @@ app.get('/one', (req, res) => {
     res.json({ response: "first route" })
 })
 
+app.get('/two', (req, res) => {
+    res.json({ response: "first route" })
+})
+
 app.listen(8000, () => { console.log("port is running in 8000") })
